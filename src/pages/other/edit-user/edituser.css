@@ -1,0 +1,66 @@
+.edit-fields {
+  display: flex;
+  flex-direction: row;
+}
+.avatar-image {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 6rem;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+.image-edit {
+  flex: 1.5;
+  padding: 3rem;
+}
+
+.form-file{
+  margin-top: 2rem;
+}
+
+.submit-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 2rem;
+}
+
+.text-edits {
+  flex: 2.5;
+  padding: 3rem;
+}
+
+.label{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+}
+
+
+.table {
+  padding: 3rem;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0;
+  border: 1px solid black;
+}
+
+tr:last-child td {
+  border-bottom: 0;
+}
+
+th,
+td {
+  margin: 0;
+  padding: 0.5rem;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+td:last-child {
+  border-right: 0;
+}
