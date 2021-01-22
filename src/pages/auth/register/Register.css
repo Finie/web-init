@@ -11,3 +11,13 @@ p{
 .label{
     color: black;
 }
+
+.file-input{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.file-selector{
+    margin-left: -6rem;
+}
